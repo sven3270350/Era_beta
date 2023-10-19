@@ -2,6 +2,7 @@ import { Tabs, TabsHeader, TabsBody, Tab, TabPanel } from '@material-tailwind/re
 import WalletNotConnected from 'public/assets/icons/wallet-not-connected';
 import { useState } from 'react';
 import RakingTable from '../RakingTable/RakingTable';
+import FilterPage from '../Filter/Filter';
 
 const RakingTab = ({ data }) => {
   const [activeTab, setActiveTab] = useState(0);
@@ -47,6 +48,7 @@ const RakingTab = ({ data }) => {
           className=""
           style={{ height: '646px' }}
         >
+          <FilterPage />
           <RakingTable />
         </TabPanel>
         <TabPanel
