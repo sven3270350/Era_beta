@@ -55,7 +55,7 @@ const TabsDefault = ({ data }) => {
             key={value}
             value={value}
             className="flex items-center justify-center"
-            style={{ height: '697px' }}
+            style={{ height: '646px' }}
           >
             <WalletNotConnected width="72" height="72" />
             <div

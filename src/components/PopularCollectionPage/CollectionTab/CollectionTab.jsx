@@ -45,7 +45,7 @@ const CollectionTab = ({ data }) => {
           key={'All collections'}
           value={'All collections'}
           className=""
-          style={{ height: '697px' }}
+          style={{ height: '646px' }}
         >
           <CollectionTable />
         </TabPanel>
@@ -53,7 +53,7 @@ const CollectionTab = ({ data }) => {
           key={'My watchlist'}
           value={'My watchlist'}
           className="flex items-center justify-center"
-          style={{ height: '697px' }}
+          style={{ height: '646px' }}
         >
           <WalletNotConnected width="72" height="72" />
           <div
