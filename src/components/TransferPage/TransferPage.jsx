@@ -1,4 +1,4 @@
-import Tab from '../Tab/TabsDefault';
+import TransferTab from './TransferTab/TransferTab';
 export default function TransferPage() {
   const data = [
     {
@@ -33,7 +33,7 @@ export default function TransferPage() {
         transfer
       </div>
       <div className="mb-[328px] mt-[104px]">
-        <Tab data={data} />
+        <TransferTab data={data} />
       </div>
       <img
         className="rounded-bg left-[-200px] top-[-200px] h-[992px] w-[900px]"

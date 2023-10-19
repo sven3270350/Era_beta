@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function RakingTable() {
   return (
-    <table className="mt-[62px] w-full">
+    <table className="mt-[42px] w-full">
       <thead className="">
         <tr className="nato-fontfamily text-2xl font-black" style={{ lineHeight: '28.8px' }}>
           <th className="pb-5">Collection</th>
